@@ -1,5 +1,18 @@
-# txn2 Armbian Build Configuration
+# TXN2 Armbian Build Configuration
 
 
-Please read documentation about customizing build configuration
-http://www.armbian.com/using-armbian-tools/
+### Clone Armbian
+```bash
+git clone https://github.com/armbian/build armbian
+```
+
+### Clone TXN2 userpatches
+```bash
+cd armbian
+git clone git@github.com:txn2/userpatches.git
+```
+
+## Configuration
+
+**Armbian Build Tools**:
+- http://www.armbian.com/using-armbian-tools/
